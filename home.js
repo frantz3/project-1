@@ -29,14 +29,14 @@ function makeOneCard(character) {
     div.className = 'card'
     content.append(div)
 
-    const name = document.createElement('h2')
-    name.innerText = character.name
+    const h2 = document.createElement('h2')
+    h2.innerText = character.name
     div.append(h2)
 
     
     const img = document.createElement('img')
     img.src = character.img
-    img.alt = character.img
+    img.width = 150
     div.append(img)
 }
 
