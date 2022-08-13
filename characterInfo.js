@@ -10,6 +10,7 @@ function characterPage(character) {
 
 function renderCharacter(character) {
     const container = document.createElement('div')
+    container.className = 'allText'
 
     const img = document.createElement('img')
     img.className = 'oneImg' 

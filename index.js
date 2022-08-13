@@ -14,6 +14,11 @@ home.addEventListener('click', (e) => {
     createHomeHighlight()
 })
 
+const button = document.createElement('button')
+button.className = 'backToTop'
+content.append(button)
+
+
 // characterInfo.addEventListener('click', (e) => {
 //     e.preventDefault()
 //     const main = document.querySelector('main')
@@ -25,3 +30,12 @@ function getCharacterInfo(){
 // .then( (r) => r.json())
 // .then((data) => console.log(data))
 }
+const goToTop = () => {
+    document.body.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+  const showOnPx = 100;
+const backToTopButton = document.querySelector(".backToTop")
+
+  backToTopButton.addEventListener("click", goToTop)
