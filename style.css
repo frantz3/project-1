@@ -1,0 +1,79 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    color: Black;
+    text-align: center;
+    margin-top: 200px;
+    color: darkgreen;
+}
+
+img {
+    height: 300px;
+    padding: 30px;
+}
+
+body {
+    
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    /* background-image: url('https://wallpaperaccess.com/full/5840966.jpg') */
+}
+
+.header {
+    background: transparent url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/2560px-Breaking_Bad_logo.svg.png") no-repeat scroll 0% 0%;
+    width: 250px;
+    height: 70px;
+    /* text-indent: -3333px; */
+    border: 0;
+    margin: 0;
+    background-size: contain;
+    margin-left: 1000px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 1020px;
+    vertical-align: middle;
+    line-height: 1.5em;
+    margin-top: 100px;
+    
+}  
+
+.title {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 50px;
+    margin-bottom: -50px;
+    color: darkgreen;
+}
+
+#navigation{
+    
+    background-color: #333;
+    overflow: hidden;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-right:20px;
+      
+}
+
+a{
+    color: white;
+}
+
+.oneImg {
+    width: 700px;  
+height: 700px;  
+ 
+object-fit:fill;  
+object-position: center top;  
+margin-left: 755px;
+margin-top: -150px;
+}
+
+.clickedText {
+    margin-left: 750px;
+    font-size: 100px;
+}

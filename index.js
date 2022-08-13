@@ -10,16 +10,16 @@ const characterInfo = document.querySelectorAll('a')[1]
 home.addEventListener('click', (e) => {
     e.preventDefault()
     const main = document.querySelector('main')
-    main.innerHTML = ''
-    main.innerHTML = '<h1>HOME</h1>'
+    content.innerHTML = ''
+    createHomeHighlight()
 })
 
-characterInfo.addEventListener('click', (e) => {
-    e.preventDefault()
-    const main = document.querySelector('main')
-    main.innerHTML = ''
-    main.innerHTML = '<h1>Character Info</h1>'
-})
+// characterInfo.addEventListener('click', (e) => {
+//     e.preventDefault()
+//     const main = document.querySelector('main')
+//     main.innerHTML = ''
+//     main.innerHTML = '<h1>Character Info</h1>'
+// })
 function getCharacterInfo(){
 // fetch(api_url)
 // .then( (r) => r.json())
